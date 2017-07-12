@@ -88,6 +88,23 @@ img { max-width: 100%; }
   outline: none;
 }
 
+.logo {
+  margin: 0;
+}
+
+.logo-bottom {
+  color: #aaaaaa;
+  transition: ease .6s;
+  -webkit-transition: ease .6s;
+  -moz-transition: ease .6s;
+  -o-transition: ease .6s;
+  -ms-transition: ease .6s;
+}
+
+.logo-bottom:hover {
+  opacity: 0.6;
+}
+
 /*----------------------------------------- 2) Preloader --------------------------------------------------*/
 #preloader {
   position: fixed;
@@ -228,9 +245,6 @@ img { max-width: 100%; }
 .opacity-nav {
   opacity: 0.8;
   z-index: 2;
-}
-.header-logo {
-  margin-top: 10px;
 }
 
 /*----------- panel ----------*/
@@ -1220,6 +1234,7 @@ ul.portfolio-image li .desc{
   background: #2f2f2f;
   padding: 80px 0;
   color: #636363;
+  text-align: center;
 }
 
 
