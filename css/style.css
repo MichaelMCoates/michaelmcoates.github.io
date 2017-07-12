@@ -205,7 +205,8 @@ img { max-width: 100%; }
   top: 0;
   left: 0;
   border-bottom: 1px solid #f1f1f1;
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 0px 15px 5px 15px;
   background: #ffffff;
   -webkit-transition: all 0.3s;
@@ -228,6 +229,10 @@ img { max-width: 100%; }
   opacity: 0.8;
   z-index: 2;
 }
+.header-logo {
+  margin-top: 10px;
+}
+
 /*----------- panel ----------*/
 .content-wrap {
   -webkit-overflow-scrolling: touch;
