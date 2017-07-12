@@ -937,6 +937,11 @@ ul.portfolio-image li .desc{
   display: block;
   min-height: 480px;
 }
+
+.wrap-about-contact {
+  min-height: 300px;
+}
+
 .wrap-about .w-content{
   position: absolute;
   left: 50%;
@@ -972,7 +977,7 @@ ul.portfolio-image li .desc{
   font-size: 14px;
 }
 /*---------- g. contact -----------*/
-#contact {padding: 120px 0 200px 0;}
+#contact {padding: 120px 0 120px 0;}
 #contact form {
   margin-top: 25px;
 }
@@ -1137,7 +1142,8 @@ ul.portfolio-image li .desc{
   float: left;
   overflow: hidden;
   width: 33.33333%;
-  font-size: 13px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .socials a {
@@ -1184,21 +1190,21 @@ ul.portfolio-image li .desc{
   transform: translateY(100%);
 }
 
-.facebook{
+.github{
   background: #969696;
   /*padding: 20px 0;*/
 }
-.facebook a:after{
-  background-color: #527bbb;
+.github a:after{
+  background-color: #31c653;
 }
-.twitter{
-  background: #ABABAB;
+.linkedin{
+  background: #969696;
 }
-.twitter a:after{
-  background-color: #77ccf1;
+.linkedin a:after{
+  background-color: #0084bf;
 }
 .gplus{
-  background: #d8d8d8;
+  background: #969696;
 }
 .gplus a:after{
   background: #dd4b39;
