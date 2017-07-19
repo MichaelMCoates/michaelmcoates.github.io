@@ -1239,6 +1239,16 @@ ul.portfolio-image li .desc{
   text-align: center;
 }
 
+/*-------------- i. resume ------------------*/
+
+#resume {
+  display: flex;
+}
+.resume-link {
+  margin: 0 auto;
+  padding: 25px;
+}
+
 
 /*----------------------------------------- 8) Component --------------------------------------------------*/
 /*---------------- a. Skills ----------------*/
